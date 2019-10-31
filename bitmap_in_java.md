@@ -190,9 +190,7 @@ public int missingNumberInByBitSet(int[] array) {
 
 这里是简单实现，使用int，而不是lang，也没有用一个数组，但是核心思想是这样的。
 
-## bitset的用法举例
-
-#####去重顺带排序
+#####运用二：去重顺带排序
 
 `把需要去重的数据放到bitset中，然后将long型数组转化为二进制数组，输出为1的下标即可，缺点是只适用于正整数数组`
 
